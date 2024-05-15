@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 2fr;
+    grid-template-rows:  1fr;
+}
+
+.navbars{
+    display: flex;
+    justify-content: space-between; 
+    margin: 10px;
+    padding: 5px;
+    background-color: aquamarine;
+}
+
+.navs{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+}
+
+.bars{
+    margin: 10px;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.fa{
+    font-size: 30px;
+    color: black;
+}
+
+
+        /* aside bar */
+
+.aside{
+    background-color: blueviolet;
+    wi
+}
